@@ -123,7 +123,7 @@
                     </div>
                     <div class="product-footer">
                         <div>
-                            <button class="btn btn-three">Faça seu lance</button>
+                            <button class="btn btn-two">Faça seu lance</button>
                         </div>
                         <div>
                             <h4><span>1</span><span>5</span></h4>
