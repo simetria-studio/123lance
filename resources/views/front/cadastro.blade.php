@@ -59,7 +59,7 @@
                             <input type="text" class="form-control" id="" placeholder="Cidade">
                         </div>
                         <div class="mb-3 col-md-3">
-                            <input type="text" class="form-control" id="" placeholder="Estado">
+                            <input type="text" class="form-control" id="" placeholder="UF">
                         </div>
                         <div class="mb-3 col-md-9">
                            <button class="btn btn-two" style="width: 100%">Cadastrar</button>

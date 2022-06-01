@@ -15,7 +15,7 @@
                     </div>
                     <div class="price">
                         <div>
-                            <h5>Valor de Mercado </h5>
+                            <h5>Valor de <span>Mercado</span> </h5>
                             <h2>R$ 25.000,00</h2>
                         </div>
                         <div>
@@ -25,7 +25,7 @@
                 </div>
                 <div class="section-2">
                     <div class="node-1">
-                        <h4><span><img src="{{ asset('front/img/martelo-2.svg') }}" alt=""></span>Leilão <span
+                        <h4><span class="mx-2"><img src="{{ asset('front/img/martelo-2.svg') }}" alt=""></span>Leilão <span
                                 class="color-primary">em
                                 andamento</span>
                         </h4>
@@ -57,7 +57,7 @@
                 </div>
                 <div class="section-2">
                     <div class="node-1">
-                        <h4><span><img src="{{ asset('front/img/martelo.svg') }}" alt=""></span>Últimos lances</span>
+                        <h4><span class="mx-2"><img src="{{ asset('front/img/martelo.svg') }}" alt=""></span>Últimos lances</span>
                         </h4>
                     </div>
                     <div>
