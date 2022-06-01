@@ -53,7 +53,8 @@
                 </div>
                 <div class="d-flex">
                     <div class="mx-1">
-                        <button class="btn btn-one">Faça Login</button>
+                        <button class="btn btn-one" data-bs-toggle="modal" data-bs-target="#modalLogin">Faça
+                            Login</button>
                     </div>
                     <div class="mx-1">
                         <button class="btn btn-two">Compre Lance</button>
@@ -66,6 +67,18 @@
     <main>
         @yield('content')
     </main>
+
+    <!-- Modal -->
+    <div class="modal fade" id="modalLogin" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+        <div class="modal-dialog modal-dialog-centered">
+            <div class="modal-content">
+                <div class="modal-body">
+                    Login
+                </div>
+            </div>
+        </div>
+    </div>
+
     <footer>
         <div class="container">
             <div class="footer-grid">
