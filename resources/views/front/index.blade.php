@@ -11,7 +11,7 @@
                         <h1>Ofertas<br> incríves<br> em todo<br> nosso site</h1>
                     </div>
                     <div>
-                        <button class="btn btn-one">cadastre-se</button>
+                       <a href="{{ route('cadastro') }}"> <button class="btn btn-one">cadastre-se</button></a>
                     </div>
                 </div>
             </div>

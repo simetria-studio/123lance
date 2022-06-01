@@ -6,16 +6,22 @@
                 <div>
                     <h2>Vamos fazer<br> <span> Seu cadastro :)</span></h2>
                     <div class="mb-3">
-                        <input type="email" class="form-control" id="" placeholder="name@example.com">
+                        <input type="email" class="form-control" id="" placeholder="E-mail">
                     </div>
                     <div class="mb-3">
                         <input type="text" class="form-control" id="" placeholder="Nome e sobrenome">
                     </div>
                     <div class="mb-3">
-                        <input type="text" class="form-control" id="" placeholder="cpf">
+                        <input type="text" class="form-control" id="" placeholder="CPF">
                     </div>
                     <div class="mb-3">
-                        <input type="text" class="form-control" id="" placeholder="telefone">
+                        <input type="text" class="form-control" id="" placeholder="Telefone">
+                    </div>
+                    <div class="form-check">
+                        <input class="form-check-input" type="checkbox" value="" id="flexCheckDefault">
+                        <label class="form-check-label" for="flexCheckDefault">
+                            Este número é Whatsapp
+                        </label>
                     </div>
                 </div>
                 <div>
@@ -32,18 +38,32 @@
 
                 </div>
                 <div>
-                    <h2>Agora só falta seu<br> <span> endereço :)</span></h2>
-                    <div class="mb-3">
-                        <input type="email" class="form-control" id="" placeholder="name@example.com">
-                    </div>
-                    <div class="mb-3">
-                        <input type="text" class="form-control" id="" placeholder="name@example.com">
-                    </div>
-                    <div class="mb-3">
-                        <input type="text" class="form-control" id="" placeholder="name@example.com">
-                    </div>
-                    <div class="mb-3">
-                        <input type="text" class="form-control" id="" placeholder="name@example.com">
+                    <div class="row">
+                        <h2>Agora só falta seu<br> <span> endereço :)</span></h2>
+                        <div class="mb-3 col-md-6">
+                            <input type="email" class="form-control" id="" placeholder="Cep">
+                        </div>
+                        <div class="mb-3">
+                            <input type="text" class="form-control" id="" placeholder="Endereço">
+                        </div>
+                        <div class="mb-3 col-md-4">
+                            <input type="text" class="form-control" id="" placeholder="Numero">
+                        </div>
+                        <div class="mb-3 col-md-8">
+                            <input type="text" class="form-control" id="" placeholder="Complemento">
+                        </div>
+                        <div class="mb-3 col-md-12">
+                            <input type="text" class="form-control" id="" placeholder="Bairro">
+                        </div>
+                        <div class="mb-3 col-md-12">
+                            <input type="text" class="form-control" id="" placeholder="Cidade">
+                        </div>
+                        <div class="mb-3 col-md-3">
+                            <input type="text" class="form-control" id="" placeholder="Estado">
+                        </div>
+                        <div class="mb-3 col-md-9">
+                           <button class="btn btn-two" style="width: 100%">Cadastrar</button>
+                        </div>
                     </div>
                 </div>
             </div>

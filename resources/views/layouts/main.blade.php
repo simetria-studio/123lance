@@ -30,7 +30,7 @@
         <div class="container">
             <div class="header-grid">
                 <div>
-                    <img src="{{ asset('front/img/logo.svg') }}" alt="">
+                    <a href="{{ route('index') }}"> <img src="{{ asset('front/img/logo.svg') }}" alt=""></a>
                 </div>
                 <div class="d-flex">
                     <div>
