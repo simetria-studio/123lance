@@ -161,7 +161,7 @@ body {
 }
 
 .filters {
-    margin-top: 7em;
+    margin-top: 9em;
 
     .filter-grid {
         display: grid;
@@ -367,6 +367,9 @@ body {
         .block-fillet {
             display: flex;
             justify-content: center;
+            img{
+                width: 80%;
+            }
         }
     }
 }
