@@ -73,7 +73,29 @@
         <div class="modal-dialog modal-dialog-centered">
             <div class="modal-content">
                 <div class="modal-body">
-                    Login
+                    <div class="container">
+                        <div class="row">
+                            <div class="col-md-4">
+                                <img src="{{ asset('front/img/logo.svg') }}" alt="">
+                            </div>
+                            <div class="col-md-8">
+                                <p>Faça login para dar seu lance</p>
+                            </div>
+                            <div class="mb-3">
+                                <input type="email" class="form-control" id="E-mail" placeholder="E-mail">
+                            </div>
+                            <div class="mb-3">
+                                <input type="password" class="form-control" placeholder="Senha">
+                            </div>
+                            <div class="text-center">
+                                <button class="btn btn-two">Login</button>
+                            </div>
+                            <div>
+                                <p>Login</p>
+                                <a href="{{ route('cadastro') }}">Cadastre-se</a>
+                            </div>
+                        </div>
+                    </div>
                 </div>
             </div>
         </div>
