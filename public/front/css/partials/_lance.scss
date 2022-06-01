@@ -1,0 +1,232 @@
+.produto-lance {
+    background: #FFFFFF;
+    padding-top: 3em;
+    padding-bottom: 1em;
+
+    .lance-grid {
+        display: grid;
+        grid-template-columns: 2fr 1fr 1fr 1fr;
+        gap: 20px;
+    }
+
+    .section-1 {
+        padding-right: 3em;
+    }
+
+    .product-name {
+        width: 70%;
+        margin: 1em 0;
+
+        h4 {
+            font-weight: 400;
+            font-size: 20px;
+            line-height: 25px;
+            letter-spacing: -0.04em;
+            color: #000000;
+
+        }
+
+    }
+
+    .modal-info {
+        h5 {
+            font-weight: 700;
+            font-size: 14.3038px;
+            line-height: 14px;
+            /* identical to box height, or 100% */
+
+            letter-spacing: -0.04em;
+            margin: 2em 0;
+            color: #000000;
+        }
+    }
+
+    .img-product {}
+
+    .price {
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        border: 2px solid #E2E1E1;
+        border-radius: 12px;
+        padding: 2em 5em;
+
+
+        h5 {
+            font-weight: 400;
+            font-size: 14.3038px;
+            line-height: 14px;
+            // text-align: center;
+            letter-spacing: -0.04em;
+            color: #000000;
+
+        }
+
+        h2 {
+            font-weight: 400;
+            font-size: 20px;
+            line-height: 25px;
+            // text-align: center;
+            letter-spacing: -0.04em;
+            color: #000000;
+        }
+
+        p {
+            font-weight: 400;
+            font-size: 10px;
+            line-height: 14px;
+            /* or 140% */
+            // padding: 0 6em;
+
+            color: #000000;
+        }
+    }
+
+    .section-2 {
+        background: #F4F4F4;
+        border-radius: 8.49042px;
+
+        h4 {
+            font-weight: 400;
+            font-size: 15.1807px;
+            line-height: 15px;
+            /* identical to box height, or 100% */
+
+            letter-spacing: -0.04em;
+
+            color: #000000;
+        }
+
+        .node-1 {
+            text-align: center;
+            padding: 1.5em 0;
+        }
+
+        .node-2 {
+            h6 {
+                font-weight: 400;
+                font-size: 15.9195px;
+                line-height: 27px;
+                /* identical to box height, or 167% */
+
+                letter-spacing: -0.04em;
+                margin: 0 !important;
+                color: #000000;
+            }
+        }
+
+        .node-2:nth-child(odd) {
+            padding: 1em 2em;
+
+            background: #D9D9D9;
+        }
+
+        .node-2:nth-child(even) {
+            padding: 0.5em 2em;
+
+        }
+
+        .node-4 {
+            display: flex;
+            justify-content: space-between;
+        }
+
+        .node-4:nth-child(1) {
+            h6 {
+                font-weight: 700;
+                font-size: 15.9195px;
+                line-height: 27px;
+                /* identical to box height, or 167% */
+
+                letter-spacing: -0.04em;
+
+                color: #000000;
+
+            }
+        }
+
+        .node-4:nth-child(odd) {
+            padding: 1em 2em;
+
+            background: #D9D9D9;
+        }
+
+        .node-4:nth-child(even) {
+            padding: 1em 2em;
+
+        }
+
+        .node-2:nth-child(6) {
+            h6 {
+                font-weight: 900;
+                font-size: 15.9195px;
+                line-height: 27px;
+                /* identical to box height, or 167% */
+
+                letter-spacing: -0.04em;
+                color: #F27900;
+            }
+
+        }
+
+        .node-3 {
+            background: #7E00B2;
+            padding: 1em;
+            text-align: center;
+
+            p {
+                font-weight: 400;
+                font-size: 15.9195px;
+                line-height: 27px;
+                /* identical to box height, or 167% */
+                margin: 0 !important;
+                text-align: center;
+                letter-spacing: -0.04em;
+                color: #FFFFFF;
+
+                span {
+                    font-weight: 900;
+                    font-size: 23.753px;
+                    line-height: 40px;
+                    /* identical to box height, or 167% */
+
+                    text-align: center;
+                    letter-spacing: -0.04em;
+
+                    color: #F27900;
+                }
+            }
+
+        }
+    }
+
+    .section-3 {
+        background: #F4F4F4;
+        border-radius: 8.49042px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        text-align: center;
+
+        h4 {
+            font-weight: 900;
+            font-size: 37.8303px;
+            line-height: 38px;
+            /* identical to box height, or 100% */
+            letter-spacing: -0.04em;
+            color: #FFFFFF;
+            margin: 0.5em 0;
+            padding: 1em;
+
+            span {
+                background: #F27900;
+                border-radius: 6.36782px;
+                padding: 2px 8px;
+                margin: 0 2px;
+            }
+        }
+    }
+}
+
+.lance {
+    margin-top: 4em !important;
+}

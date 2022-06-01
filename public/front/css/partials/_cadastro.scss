@@ -1,8 +1,13 @@
 .cadastro {
     padding: 0 10em;
-    margin: 2em;
+    margin-top: 2em;
+    margin-bottom: 5em;
     input{
         padding: 0.6em !important;
+    }
+    .check{
+
+        margin-left: 1em;
     }
     .cadastro-grid {
         display: grid;

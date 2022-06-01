@@ -2,8 +2,23 @@ $color-primary: #F27900;
 $color-secundary: #9A01CD;
 $color-third: #25EE04;
 
+p,
+h6,
+h4,
+h4,
+h3,
+h2,
+h1 {
+    padding: 0 !important;
+}
+
+.color-primary {
+    color: $color-primary;
+}
 
 @import 'partials/cadastro';
+@import 'partials/lance';
+
 
 html {
     font-family: 'League Spartan', sans-serif;
@@ -183,6 +198,9 @@ body {
 
 .products {
 
+    a {
+        text-decoration: none;
+    }
 
     .product-grid {
         display: grid;

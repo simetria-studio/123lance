@@ -23,3 +23,6 @@ Route::get('/home', [App\Http\Controllers\HomeController::class, 'index'])->name
 //front routes
 Route::get('/',[HomeController::class, 'index'])->name('index');
 Route::get('cadastro', [UserCadastroController::class, 'index'])->name('cadastro');
+
+
+Route::get('produto', [HomeController::class, 'lance'])->name('produto.lance');

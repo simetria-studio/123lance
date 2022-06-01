@@ -64,6 +64,12 @@
                         <div class="mb-3 col-md-9">
                            <button class="btn btn-two" style="width: 100%">Cadastrar</button>
                         </div>
+                        <div class="form-check col-md-12 check">
+                            <input class="form-check-input" type="checkbox" value="" id="flexCheckDefault">
+                            <label class="form-check-label" for="flexCheckDefault">
+                                Aceito os termos e condições
+                            </label>
+                        </div>
                     </div>
                 </div>
             </div>
