@@ -74,12 +74,12 @@
             <div class="modal-content">
                 <div class="modal-body">
                     <div class="container">
-                        <div class="row">
-                            <div class="col-md-4">
+                        <div class="row form-login">
+                            <div class="col-md-4 p-3">
                                 <img src="{{ asset('front/img/logo.svg') }}" alt="">
                             </div>
-                            <div class="col-md-8">
-                                <p>Faça login para dar seu lance</p>
+                            <div class="col-md-8  p-5">
+                                <p>Faça login para<br> dar seu lance</p>
                             </div>
                             <div class="mb-3">
                                 <input type="email" class="form-control" id="E-mail" placeholder="E-mail">
@@ -90,8 +90,8 @@
                             <div class="text-center">
                                 <button class="btn btn-two">Login</button>
                             </div>
-                            <div>
-                                <p>Login</p>
+                            <div class="text-center my-3 form-text">
+                                <p>Não tem Login?</p>
                                 <a href="{{ route('cadastro') }}">Cadastre-se</a>
                             </div>
                         </div>

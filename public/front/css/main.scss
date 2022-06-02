@@ -367,7 +367,8 @@ body {
         .block-fillet {
             display: flex;
             justify-content: center;
-            img{
+
+            img {
                 width: 80%;
             }
         }
@@ -454,6 +455,43 @@ footer {
             span {
                 padding-right: 1em;
             }
+        }
+    }
+}
+
+.form-login {
+    align-items: baseline;
+
+    p {
+        font-weight: 400;
+        font-size: 1.3em;
+        line-height: 19px;
+
+        letter-spacing: -0.04em;
+        color: #000000;
+    }
+
+    .form-text {
+        p {
+            font-weight: 400;
+            font-size: 14.3038px;
+            line-height: 14px;
+            text-align: center;
+            letter-spacing: -0.04em;
+            color: #000000;
+        }
+
+        a {
+            font-weight: 900;
+            font-size: 14.3038px;
+            line-height: 14px;
+            /* identical to box height, or 100% */
+
+            text-align: center;
+            letter-spacing: -0.04em;
+
+            color: #F27900;
+            text-decoration: none;
         }
     }
 }
