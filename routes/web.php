@@ -1,5 +1,6 @@
 <?php
 
+use App\Http\Controllers\Admin\PainelController;
 use App\Http\Controllers\Front\HomeController;
 use App\Http\Controllers\Front\UserCadastroController;
 use Illuminate\Support\Facades\Route;
@@ -26,3 +27,4 @@ Route::get('cadastro', [UserCadastroController::class, 'index'])->name('cadastro
 
 
 Route::get('produto', [HomeController::class, 'lance'])->name('produto.lance');
+Route::get('/dashboard', [PainelController::class, 'index'])->name('dashboard');
