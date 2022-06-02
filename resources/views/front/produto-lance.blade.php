@@ -10,7 +10,7 @@
                     <div class="product-name">
                         <h4>Console PlayStation 5 Controle Dual Sense PS5 Branco e Preto</h4>
                     </div>
-                    <div class="modal-info">
+                    <div class="modal-info" data-bs-toggle="modal" data-bs-target="#exampleModal">
                         <h5>+ informações</h5>
                     </div>
                     <div class="price">
@@ -25,8 +25,8 @@
                 </div>
                 <div class="section-2">
                     <div class="node-1">
-                        <h4><span class="mx-2"><img src="{{ asset('front/img/martelo-2.svg') }}" alt=""></span>Leilão <span
-                                class="color-primary">em
+                        <h4><span class="mx-2"><img src="{{ asset('front/img/martelo-2.svg') }}"
+                                    alt=""></span>Leilão <span class="color-primary">em
                                 andamento</span>
                         </h4>
                     </div>
@@ -57,7 +57,8 @@
                 </div>
                 <div class="section-2">
                     <div class="node-1">
-                        <h4><span class="mx-2"><img src="{{ asset('front/img/martelo.svg') }}" alt=""></span>Últimos lances</span>
+                        <h4><span class="mx-2"><img src="{{ asset('front/img/martelo.svg') }}"
+                                    alt=""></span>Últimos lances</span>
                         </h4>
                     </div>
                     <div>
@@ -124,7 +125,7 @@
                         <div>
                             <button class="btn btn-two">Faça seu lance</button>
 
-                                <h4><span>1</span><span>5</span></h4>
+                            <h4><span>1</span><span>5</span></h4>
 
                         </div>
                     </div>
@@ -323,6 +324,61 @@
                         <img src="{{ asset('front/img/shoppe.svg') }}" alt="">
                     </div>
                 </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Modal -->
+    <div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+        <div class="modal-dialog modal-dialog-centered modal-xl">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h5 class="modal-title" id="exampleModalLabel"></h5>
+                    <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                </div>
+                <div class="modal-body">
+                    <div class="container">
+                        <div class="row modal-desc">
+                            <div class="col-md-5 block p-3">
+                                <h1>Descrição</h1>
+                                <h2>Console PlayStation 5 Controle Dual Sense PS5 Branco e Preto</h2>
+                                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Hic magni molestias animi odit
+                                    natus totam earum quam nihil labore dolores necessitatibus inventore, excepturi quidem
+                                    tenetur nam. Assumenda possimus illo repudiandae? Lorem ipsum dolor sit amet consectetur
+                                    adipisicing elit. Sequi odit, voluptatum maxime officiis quo asperiores inventore
+                                    blanditiis voluptate accusantium atque, aperiam animi ad nostrum at illo, nesciunt
+                                    quidem error aspernatur.</p>
+                            </div>
+                            <div class="col-md-5 block p-3">
+                                <h1>Especificações</h1>
+                                <div class="d-flex justify-content-between">
+                                    <div>
+                                        <ul class="list-group">
+                                            <li class="list-group-item">Marca:</li>
+                                            <li class="list-group-item">Modelo:</li>
+                                            <li class="list-group-item">Polegadas:</li>
+                                            <li class="list-group-item">Frequência:</li>
+                                            <li class="list-group-item">Sistema Operacional:</li>
+                                            <li class="list-group-item">USB:</li>
+                                        </ul>
+                                    </div>
+                                    <div>
+                                        <ul class="list-group">
+                                            <li class="list-group-item">Itens da descrição do produto</li>
+                                            <li class="list-group-item">Itens da descrição do produto</li>
+                                            <li class="list-group-item">Itens da descrição do produto</li>
+                                            <li class="list-group-item">Itens da descrição do produto</li>
+                                            <li class="list-group-item">Itens da descrição do produto</li>
+                                            <li class="list-group-item">Itens da descrição do produto</li>
+
+                                        </ul>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
             </div>
         </div>
     </div>

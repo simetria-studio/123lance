@@ -30,6 +30,8 @@
     }
 
     .modal-info {
+        cursor: pointer;
+
         h5 {
             font-weight: 700;
             font-size: 14.3038px;
@@ -60,7 +62,8 @@
             letter-spacing: -0.04em;
             color: #000000;
             margin: 0 !important;
-            span{
+
+            span {
                 font-weight: 900;
             }
         }
@@ -212,6 +215,7 @@
         align-items: center;
         text-align: center;
         height: 100%;
+
         h4 {
             font-weight: 900;
             font-size: 37.8303px;
@@ -234,4 +238,28 @@
 
 .lance {
     margin-top: 4em !important;
+}
+
+.modal-desc {
+
+    h1 {
+        font-size: 1.5em;
+    }
+
+    h2 {
+        font-size: 1.3em;
+        font-weight: 900;
+    }
+
+    .list-group-item {
+        border: none !important;
+    }
+    .block{
+        border-top: solid 1px $color-primary;
+        margin: 0 1em;
+    }
+}
+
+.modal-header {
+    border-bottom: none !important;
 }
