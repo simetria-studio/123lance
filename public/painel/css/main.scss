@@ -20,22 +20,28 @@ body {
     background: #FFFFFF;
     position: fixed;
     padding: 2em 3em;
+    top: 0;
 
-    .menu {
-        margin-top: 2em;
-        p{
-            font-weight: 400;
-            font-size: 18px;
-            line-height: 18px;
-            letter-spacing: -0.04em;
-            color: #000000;
-            // padding: 0 1em;
-            text-decoration: none;
-            span{
-                color: #F27900;
-                font-weight: 700;
-            }
+
+}
+
+.main-content{
+    margin-left: 20%;
+}
+.menu {
+    margin-top: 2em;
+    p{
+        font-weight: 400;
+        font-size: 18px;
+        line-height: 18px;
+        letter-spacing: -0.04em;
+        color: #000000;
+        // padding: 0 1em;
+        text-decoration: none;
+        span{
+            color: #F27900;
+            font-weight: 700;
         }
-
     }
+
 }
