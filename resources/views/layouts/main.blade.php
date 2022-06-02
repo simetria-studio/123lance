@@ -74,7 +74,7 @@
             <div class="modal-content">
                 <div class="modal-body">
                     <div class="container">
-                        <div class="row form-login">
+                        <div class="row form-login px-5">
                             <div class="col-md-4 p-3">
                                 <img src="{{ asset('front/img/logo.svg') }}" alt="">
                             </div>
