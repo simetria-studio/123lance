@@ -123,7 +123,7 @@
                 <div class="section-3">
                     <div>
                         <div>
-                            <button class="btn btn-two">Faça seu lance</button>
+                            <button class="btn btn-two" data-bs-toggle="modal" data-bs-target="#modalLogin">Faça seu lance</button>
 
                             <h4><span>1</span><span>5</span></h4>
 
