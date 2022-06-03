@@ -23,7 +23,7 @@
         </div>
     </div>
     <div class="container">
-        <div class="row">
+        <div class="row home">
             <div class="col-md-4 mt-5">
                 <div class="block-1">
                     <div class="node-1">
