@@ -12,7 +12,7 @@
 
     <!-- Scripts -->
     <script src="{{ asset('js/app.js') }}" defer></script>
-
+    <script src="https://kit.fontawesome.com/0ab2bcde1c.js" crossorigin="anonymous"></script>
     <!-- Fonts -->
     <link rel="dns-prefetch" href="//fonts.gstatic.com">
     <link href="https://fonts.googleapis.com/css?family=Nunito" rel="stylesheet">
@@ -30,7 +30,7 @@
             </div>
             <div class="d-flex flex-column menu">
                 <div class="my-3">
-                    <a href="">
+                    <a href="{{ route('dashboard') }}">
                         <div class="d-flex">
                             <div class="mt-1">
                                 <img src="{{ asset('painel/img/ri_dashboard-3-fill.svg') }}" alt="">
@@ -44,7 +44,7 @@
                     </a>
                 </div>
                 <div class="my-3">
-                    <a href="">
+                    <a href="{{ route('pedidos') }}">
                         <div class="d-flex">
                             <div class="mt-1">
                                 <img src="{{ asset('painel/img/cart.svg') }}" alt="">

@@ -11,4 +11,10 @@ class PainelController extends Controller
     {
        return view('admin.index');
     }
+
+    public function pedidos()
+    {
+       return view('admin.pedidos');
+    }
+
 }

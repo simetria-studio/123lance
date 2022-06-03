@@ -28,3 +28,4 @@ Route::get('cadastro', [UserCadastroController::class, 'index'])->name('cadastro
 
 Route::get('produto', [HomeController::class, 'lance'])->name('produto.lance');
 Route::get('/dashboard', [PainelController::class, 'index'])->name('dashboard');
+Route::get('/pedidos', [PainelController::class, 'pedidos'])->name('pedidos');
