@@ -37,20 +37,29 @@
     .navigation {
         display: none;
     }
-    .testimonials{
+
+    .testimonials {
         display: none;
     }
-    .fillet{
+
+    .fillet {
         display: none;
     }
-    .providers-grid{
+
+    .providers-grid {
         display: unset !important;
     }
 
-    .grid-logo{
+    .providers {
+        margin: 1em !important;
+    }
+
+
+    .grid-logo {
         display: unset !important;
     }
-    footer{
+
+    footer {
         display: none;
     }
 }
