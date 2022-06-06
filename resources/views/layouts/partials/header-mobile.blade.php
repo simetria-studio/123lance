@@ -16,21 +16,21 @@
         <button class="btn btn0close">x</button>
     </div>
     <div class="body-menu d-flex flex-column">
-        <div class="my-4">
+        <div class="my-2">
             <button class="btn btn-one">Faça Login</button>
         </div>
-        <div class="my-4">
+        <div class="my-2">
             <button class="btn btn-two">Compre Lance</button>
         </div>
-        <div class="my-4">
+        <div class="my-3">
             <a href="">Leilões Online</a>
             <div class="underline"></div>
         </div>
-        <div class="my-4">
+        <div class="my-3">
             <a href="">Leilões Arrematados</a>
             <div class="underline"></div>
         </div>
-        <div class="my-4">
+        <div class="my-3">
             <a href="">Como funciona?</a>
             <div class="underline"></div>
         </div>
