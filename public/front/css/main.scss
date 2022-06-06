@@ -18,7 +18,7 @@ h1 {
 
 @import 'partials/cadastro';
 @import 'partials/lance';
-
+@import 'responsive';
 
 html {
     font-family: 'League Spartan', sans-serif;
@@ -204,7 +204,7 @@ body {
 
     .product-grid {
         display: grid;
-        grid-template-columns: repeat(3, 1fr);
+        // grid-template-columns: repeat(3, 1fr);
         gap: 30px;
 
         .product-body {
@@ -500,4 +500,11 @@ footer {
             text-decoration: none;
         }
     }
+}
+
+
+.slick-initialized .slick-slide
+{
+    width: 407px !important;
+    margin: 0 10px !important;
 }

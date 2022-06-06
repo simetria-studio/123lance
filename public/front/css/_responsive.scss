@@ -1,0 +1,52 @@
+@media screen and (max-width: 600px) {
+    .desktop {
+        display: none !important;
+    }
+
+    .h-desktop {
+        display: none;
+    }
+
+    .m-hero {
+        width: 100%;
+        height: 343px;
+        display: flex;
+        align-items: flex-end;
+        background-image: url('../img/backmobile.png');
+        padding: 0 1em;
+
+        .call {
+            // position: absolute;
+            width: 100%;
+            height: 143px;
+            position: relative;
+            top: 104px;
+            background: #FFFFFF;
+            border-radius: 16px;
+            text-align: center;
+            padding: 1em 2em;
+        }
+    }
+
+    .filter-grid {
+        .a {
+            display: none;
+        }
+    }
+
+    .navigation {
+        display: none;
+    }
+    .testimonials{
+        display: none;
+    }
+    .fillet{
+        display: none;
+    }
+    .providers-grid{
+        display: unset !important;
+    }
+    footer{
+        display: none;
+    }
+}

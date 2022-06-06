@@ -14,8 +14,10 @@
     <script src="{{ asset('js/app.js') }}" defer></script>
     <script src="https://kit.fontawesome.com/0ab2bcde1c.js" crossorigin="anonymous"></script>
     <!-- Fonts -->
+    <link rel="stylesheet" type="text/css" href="//cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.css" />
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link rel="stylesheet" type="text/css" href="//cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick-theme.css"/>
     <link
         href="https://fonts.googleapis.com/css2?family=League+Spartan:wght@100;200;300;400;500;600;700;800;900&family=Nunito:ital,wght@0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap"
         rel="stylesheet">
@@ -27,42 +29,7 @@
 
 <body>
     <header>
-        <div class="container">
-            <div class="header-grid">
-                <div>
-                    <a href="{{ route('index') }}"> <img src="{{ asset('front/img/logo.svg') }}" alt=""></a>
-                </div>
-                <div class="d-flex">
-                    <div>
-                        <img src="{{ asset('front/img/martelo.svg') }}" alt="">
-                    </div>
-                    <div>
-                        <h4>Leilões <span>Online</span></h4>
-                    </div>
-                </div>
-                <div class="d-flex">
-                    <div>
-                        <img src="{{ asset('front/img/martelo.svg') }}" alt="">
-                    </div>
-                    <div>
-                        <h4>Leilões <span>Arrematados</span> </h4>
-                    </div>
-                </div>
-                <div>
-                    <span></span>
-                </div>
-                <div class="d-flex">
-                    <div class="mx-1">
-                        <button class="btn btn-one" data-bs-toggle="modal" data-bs-target="#modalLogin">Faça
-                            Login</button>
-                    </div>
-                    <div class="mx-1">
-                        <button class="btn btn-two">Compre Lance</button>
-                    </div>
-                </div>
-
-            </div>
-        </div>
+        @include('layouts.partials.header-desktop')
     </header>
     <main>
         @yield('content')
@@ -148,6 +115,8 @@
         </div>
     </footer>
     <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+    <script type="text/javascript" src="//cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.min.js"></script>
+    <script src="{{ asset('front/js/script.js') }}"></script>
 </body>
 
 </html>
