@@ -157,7 +157,8 @@
         width: 100%;
         padding: 1em;
         z-index: 1000;
-        a{
+
+        a {
             text-decoration: none;
         }
 
@@ -193,6 +194,14 @@
         }
     }
 
+    .cadastro {
+        padding: 0 1em !important;
+
+        .cadastro-grid {
+            grid-template-columns: 1fr !important;
+        }
+    }
+
     footer {
         display: none;
     }
@@ -214,7 +223,8 @@
     .m-provider {
         display: none;
     }
-    .bottom-menu{
+
+    .bottom-menu {
         display: none;
     }
 }

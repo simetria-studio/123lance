@@ -17,7 +17,7 @@
     </div>
     <div class="body-menu d-flex flex-column">
         <div class="my-2">
-            <button class="btn btn-one">Faça Login</button>
+            <button class="btn btn-one" data-bs-toggle="modal" data-bs-target="#modalLogin">Faça Login</button>
         </div>
         <div class="my-2">
             <button class="btn btn-two">Compre Lance</button>

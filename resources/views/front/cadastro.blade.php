@@ -62,7 +62,7 @@
                             <input type="text" class="form-control" id="" placeholder="UF">
                         </div>
                         <div class="mb-3 col-md-9">
-                           <button class="btn btn-two" style="width: 100%">Cadastrar</button>
+                            <button class="btn btn-two" style="width: 100%">Cadastrar</button>
                         </div>
                         <div class="form-check col-md-12 check">
                             <input class="form-check-input" type="checkbox" value="" id="flexCheckDefault">
@@ -136,33 +136,6 @@
             </div>
         </div>
     </div>
-    <div class="providers">
-        <div class="container">
-            <div class="providers-grid">
-                <div>
-                    <h4>Nossos<br> <span>fornecedores</span> </h4>
-                </div>
-                <div class="grid-logo">
-                    <div class="logos">
-                        <img src="{{ asset('front/img/magazine-luiza.svg') }}" alt="">
-                    </div>
-                    <div class="logos">
-                        <img src="{{ asset('front/img/casas-bahia.svg') }}" alt="">
-                    </div>
-                    <div class="logos">
-                        <img src="{{ asset('front/img/ponto-frio.svg') }}" alt="">
-                    </div>
-                    <div class="logos">
-                        <img src="{{ asset('front/img/amazon.svg') }}" alt="">
-                    </div>
-                    <div class="logos">
-                        <img src="{{ asset('front/img/aliexpress.svg') }}" alt="">
-                    </div>
-                    <div class="logos">
-                        <img src="{{ asset('front/img/shoppe.svg') }}" alt="">
-                    </div>
-                </div>
-            </div>
-        </div>
-    </div>
+    @include('front.partials.provider-desktop')
+    @include('front.partials.provider-mobile')
 @endsection
