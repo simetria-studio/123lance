@@ -143,6 +143,9 @@
         }
     }
 
+    .d-provider{
+        display: none;
+    }
     footer {
         display: none;
     }
@@ -152,10 +155,16 @@
     .m-header {
         display: none;
     }
-    .menu-mobile{
+
+    .menu-mobile {
         display: none;
     }
-    .m-hero{
+
+    .m-hero {
+        display: none;
+    }
+
+    .m-provider {
         display: none;
     }
 }

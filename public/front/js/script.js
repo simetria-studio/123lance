@@ -34,6 +34,21 @@ $('#logos').slick({
     // centerMode: true,
     variableWidth: true,
     // adaptiveHeight: true,
+    responsive: [
+
+        {
+            breakpoint: 600,
+            settings: {
+                slidesToShow: 3,
+                slidesToScroll: 1,
+                dots: false,
+            }
+        },
+
+        // You can unslick at a given breakpoint now by adding:
+        // settings: "unslick"
+        // instead of a settings object
+    ]
 });
 
 $(document).on('click', '#btn-menu', function () {
