@@ -63,3 +63,43 @@
 
     </div>
 </div>
+
+
+<div class="bottom-menu">
+    <div class="content-m d-flex">
+        <div>
+            <a href="{{ route('index') }}">
+                <div class="d-flex m-iten">
+                    <div>
+                        <img src="{{ asset('front/img/home.svg') }}" alt="">
+                    </div>
+                    <div>
+                        <p>Tela<br>
+                            <span>Inicial</span>
+                        </p>
+                    </div>
+                </div>
+            </a>
+        </div>
+        <div class="d-flex m-iten">
+            <div>
+                <img src="{{ asset('front/img/martelo-4.svg') }}" alt="">
+            </div>
+            <div>
+                <p>Leilões<br>
+                    <span>Online</span>
+                </p>
+            </div>
+        </div>
+        <div class="d-flex m-iten">
+            <div>
+                <img src="{{ asset('front/img/fire.svg') }}" alt="">
+            </div>
+            <div>
+                <p>Meus<br>
+                    <span>Lances</span>
+                </p>
+            </div>
+        </div>
+    </div>
+</div>
