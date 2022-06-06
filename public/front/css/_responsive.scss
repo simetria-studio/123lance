@@ -37,8 +37,9 @@
             border-radius: 16px;
             // text-align: center;
             padding: 1em 2em;
-            h4{
-                span{
+
+            h4 {
+                span {
                     font-weight: 900;
                 }
             }
@@ -74,6 +75,51 @@
 
     .grid-logo {
         display: unset !important;
+    }
+
+
+    .menu-mobile {
+        position: fixed;
+        max-width: 241px;
+        width: 0%;
+        height: 100vh;
+        background: #F4F4F4;
+        z-index: 100;
+        top: 0;
+        opacity: 0;
+        left: 0;
+
+        .header-menu {
+            text-align: end;
+            padding: 0.5em;
+
+            button {
+                background: #000000;
+                color: #fff;
+
+            }
+        }
+
+        .body-menu {
+            padding: 1em 3em;
+            a {
+                font-weight: 700;
+                font-size: 15px;
+                line-height: 22px;
+                /* identical to box height, or 147% */
+
+                // text-align: center;
+                letter-spacing: -0.04em;
+                text-decoration: none;
+                color: #000000;
+
+            }
+            .underline{
+                width: 30%;
+                height: 3px;
+                background-color: $color-primary;
+            }
+        }
     }
 
     footer {

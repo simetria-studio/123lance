@@ -36,3 +36,11 @@ $('#logos').slick({
     // adaptiveHeight: true,
 });
 
+$(document).on('click', '#btn-menu', function () {
+    $(".menu-mobile").animate({ width: '100%' }, 20);
+    $(".menu-mobile").animate({ opacity: 1 }, 50);
+});
+$(document).on('click', '.btn0close', function () {
+    $(".menu-mobile").animate({ width: '0%' }, 0);
+    $(".menu-mobile").animate({ opacity: 0 }, 0);
+});
