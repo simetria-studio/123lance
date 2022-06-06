@@ -147,3 +147,15 @@
         display: none;
     }
 }
+
+@media screen and (min-width: 1024px) {
+    .m-header {
+        display: none;
+    }
+    .menu-mobile{
+        display: none;
+    }
+    .m-hero{
+        display: none;
+    }
+}
