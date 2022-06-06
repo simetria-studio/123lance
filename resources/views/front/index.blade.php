@@ -219,7 +219,7 @@
                 <div>
                     <h4>Nossos<br> <span>fornecedores</span> </h4>
                 </div>
-                <div class="grid-logo">
+                <div class="grid-logo" id="logos">
                     <div>
                         <div class="logos">
                             <img src="{{ asset('front/img/magazine-luiza.svg') }}" alt="">
