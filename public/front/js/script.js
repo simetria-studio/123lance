@@ -28,10 +28,10 @@ $('#logos').slick({
     dots: false,
     infinite: true,
     speed: 300,
-    slidesToShow: 1,
+    slidesToShow: 3,
     slidesToScroll: 1,
     arrows: false,
-    centerMode: true,
+    // centerMode: true,
     variableWidth: true,
     // adaptiveHeight: true,
 });
