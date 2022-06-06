@@ -3,6 +3,18 @@
         display: none !important;
     }
 
+    .m-header {
+        padding: 1em;
+
+        .block-m {
+            align-items: baseline;
+        }
+
+        .txt-align {
+            text-align: end;
+        }
+    }
+
     .h-desktop {
         display: none;
     }
