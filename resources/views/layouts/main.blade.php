@@ -42,11 +42,11 @@
             <div class="modal-content">
                 <div class="modal-body">
                     <div class="container">
-                        <div class="row form-login px-5">
-                            <div class="col-md-4 p-3">
+                        <div class="row form-login px-2 px-md-5">
+                            <div class="col-4 p-3">
                                 <img src="{{ asset('front/img/logo.svg') }}" alt="">
                             </div>
-                            <div class="col-md-8  p-5">
+                            <div class="col-8  p-2 p-md-5">
                                 <p>Faça login para<br> dar seu lance</p>
                             </div>
                             <div class="mb-3">

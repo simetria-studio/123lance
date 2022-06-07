@@ -92,7 +92,7 @@
                 </p>
             </div>
         </div>
-        <div class="d-flex m-iten">
+        <div class="d-flex m-iten" data-bs-toggle="modal" data-bs-target="#modalLogin">
             <div>
                 <img src="{{ asset('front/img/fire.svg') }}" alt="">
             </div>
