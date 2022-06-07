@@ -202,6 +202,62 @@
         }
     }
 
+    .lance-grid {
+        grid-template-columns: 1fr !important;
+    }
+
+    .section-1 {
+        display: flex !important;
+        flex-direction: column !important;
+        align-items: center;
+        padding-right: 0 !important;
+    }
+
+    .nav-tabs {
+        border-bottom: 1px solid #dee2e6;
+        justify-content: center !important;
+        margin-top: 1em !important;
+        border: none !important;
+    }
+
+    .nav-tabs .nav-link {
+        background: transparent !important;
+        border: none !important;
+        font-weight: 900;
+        font-size: 15.1807px;
+        line-height: 15px;
+        /* identical to box height, or 100% */
+
+        letter-spacing: -0.04em;
+
+        color: #000000;
+    }
+
+    .nav-tabs .nav-link.active {
+        background: transparent !important;
+        border: none !important;
+        font-weight: 900;
+        font-size: 15.1807px;
+        line-height: 15px;
+        /* identical to box height, or 100% */
+
+        letter-spacing: -0.04em;
+
+        color: #000000;
+    }
+
+    .d-leiloes {
+        display: none;
+    }
+
+    .filters {
+        margin: 2em 0 !important;
+    }
+
+    .filter-home {
+        margin-top: 9em !important;
+    }
+
     footer {
         display: none;
     }
@@ -209,6 +265,10 @@
 
 @media screen and (min-width: 1024px) {
     .m-header {
+        display: none;
+    }
+
+    .m-leiloes {
         display: none;
     }
 

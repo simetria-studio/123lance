@@ -2,7 +2,7 @@
 @section('content')
     @include('front.partials.hero-desktop')
     @include('front.partials.hero-mobile')
-    <div class="filters">
+    <div class="filters filter-home">
         <div class="container">
             <div class="filter-grid">
                 <div>

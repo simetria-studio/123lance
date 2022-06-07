@@ -23,107 +23,13 @@
                         </div>
                     </div>
                 </div>
-                <div class="section-2">
-                    <div class="node-1">
-                        <h4><span class="mx-2"><img src="{{ asset('front/img/martelo-2.svg') }}"
-                                    alt=""></span>Leilão <span class="color-primary">em
-                                andamento</span>
-                        </h4>
-                    </div>
-                    <div>
-                        <div class="node-2">
-                            <h6>Lances ofertados</h6>
-                        </div>
-                        <div class="node-2">
-                            <h6>10.0000</h6>
-                        </div>
-                        <div class="node-2">
-                            <h6>Preço Final</h6>
-                        </div>
-                        <div class="node-2">
-                            <h6>R$ 1000,00</h6>
-                        </div>
-                        <div class="node-2">
-                            <h6>Economia de </h6>
-                        </div>
-                        <div class="node-2">
-                            <h6>R$ 24.0000 </h6>
-                        </div>
-                        <div class="node-3">
-                            <p>Usuário</p>
-                            <p><span>lcvpaim</span></p>
-                        </div>
-                    </div>
-                </div>
-                <div class="section-2">
-                    <div class="node-1">
-                        <h4><span class="mx-2"><img src="{{ asset('front/img/martelo.svg') }}"
-                                    alt=""></span>Últimos lances</span>
-                        </h4>
-                    </div>
-                    <div>
-                        <div class="node-4">
-                            <div>
-                                <h6>Usuário</h6>
-                            </div>
-                            <div>
-                                <h6>Lance</h6>
-                            </div>
-                        </div>
-                        <div class="node-4">
-                            <div>
-                                <h6>Usuário</h6>
-                            </div>
-                            <div>
-                                <h6>R$ 11,85</h6>
-                            </div>
-                        </div>
-                        <div class="node-4">
-                            <div>
-                                <h6>Usuário</h6>
-                            </div>
-                            <div>
-                                <h6>R$ 11,85</h6>
-                            </div>
-                        </div>
-                        <div class="node-4">
-                            <div>
-                                <h6>Usuário</h6>
-                            </div>
-                            <div>
-                                <h6>R$ 11,85</h6>
-                            </div>
-                        </div>
-                        <div class="node-4">
-                            <div>
-                                <h6>Usuário</h6>
-                            </div>
-                            <div>
-                                <h6>R$ 11,85</h6>
-                            </div>
-                        </div>
-                        <div class="node-4">
-                            <div>
-                                <h6>Usuário</h6>
-                            </div>
-                            <div>
-                                <h6>R$ 11,85</h6>
-                            </div>
-                        </div>
-                        <div class="node-4">
-                            <div>
-                                <h6>Usuário</h6>
-                            </div>
-                            <div>
-                                <h6>R$ 11,85</h6>
-                            </div>
-                        </div>
-                    </div>
-                </div>
+                @include('front.partials.leiloes-mobile')
+                @include('front.partials.leiloes-desktop')
                 <div class="section-3">
                     <div>
                         <div>
-                            <button class="btn btn-two" data-bs-toggle="modal" data-bs-target="#modalLogin">Faça seu lance</button>
+                            <button class="btn btn-two" data-bs-toggle="modal" data-bs-target="#modalLogin">Faça seu
+                                lance</button>
 
                             <h4><span>1</span><span>5</span></h4>
 
@@ -133,19 +39,19 @@
             </div>
         </div>
     </div>
-    <div class="filters lance">
+    <div class="filters">
         <div class="container">
             <div class="filter-grid">
                 <div>
                     <a href="">Leilões Online</a>
-                    <a href="">Próximos leilões</a>
-                    <a href="">Leilões Arrematados</a>
+                    <a href="" class="a">Próximos leilões</a>
+                    <a href="" class="a">Leilões Arrematados</a>
                 </div>
                 <div class="d-flex justify-content-end">
                     <div class="all">
                         <a href=""><span><i class="fa-solid fa-arrow-right-long"></i></span> ver todos</a>
                     </div>
-                    <div class="navigation">
+                    <div class="navigation d-sm-none">
                         <a href=""><i class="fa-solid fa-angle-left"></i></a>
                         <a href=""><i class="fa-solid fa-angle-right"></i></a>
                     </div>
@@ -298,35 +204,8 @@
             </div>
         </div>
     </div>
-    <div class="providers">
-        <div class="container">
-            <div class="providers-grid">
-                <div>
-                    <h4>Nossos<br> <span>fornecedores</span> </h4>
-                </div>
-                <div class="grid-logo">
-                    <div class="logos">
-                        <img src="{{ asset('front/img/magazine-luiza.svg') }}" alt="">
-                    </div>
-                    <div class="logos">
-                        <img src="{{ asset('front/img/casas-bahia.svg') }}" alt="">
-                    </div>
-                    <div class="logos">
-                        <img src="{{ asset('front/img/ponto-frio.svg') }}" alt="">
-                    </div>
-                    <div class="logos">
-                        <img src="{{ asset('front/img/amazon.svg') }}" alt="">
-                    </div>
-                    <div class="logos">
-                        <img src="{{ asset('front/img/aliexpress.svg') }}" alt="">
-                    </div>
-                    <div class="logos">
-                        <img src="{{ asset('front/img/shoppe.svg') }}" alt="">
-                    </div>
-                </div>
-            </div>
-        </div>
-    </div>
+    @include('front.partials.provider-desktop')
+    @include('front.partials.provider-mobile')
 
     <!-- Modal -->
     <div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
