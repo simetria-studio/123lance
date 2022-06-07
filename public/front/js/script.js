@@ -52,10 +52,10 @@ $('#logos').slick({
 });
 
 $(document).on('click', '#btn-menu', function () {
-    $(".menu-mobile").animate({ width: '100%' }, 20);
-    $(".menu-mobile").animate({ opacity: 1 }, 50);
+    $(".menu-mobile").animate({ "left": "0" }, 150);
+    // $(".menu-mobile").animate({ opacity: 1 }, 150);
 });
 $(document).on('click', '.btn0close', function () {
-    $(".menu-mobile").animate({ width: '0%' }, 0);
-    $(".menu-mobile").animate({ opacity: 0 }, 0);
+    $(".menu-mobile").animate({ "left": "-100%" }, 150);
+    // $(".menu-mobile").animate({ opacity: 0 }, 0);
 });
