@@ -26,30 +26,42 @@
         top: 0;
         z-index: 100;
     }
-    .home{
+
+    .home {
         padding: 0 1em !important;
     }
-    .filters{
+
+    .filters {
         display: none !important;
     }
-    .pedidos-grid{
-        grid-template-columns: 1fr 1fr !important;
+
+    .pedidos {
+        padding-right: 0px !important;
     }
-    .m-filters{
+
+    .pedidos-grid {
+        grid-template-columns: 1fr 1fr !important;
+        gap: 10px;
+    }
+
+    .m-filters {
         display: grid !important;
-        grid-template-columns: 1fr 1fr ;
+        grid-template-columns: 1fr 1fr;
         gap: 20px;
-        button{
+
+        button {
             width: 100%;
         }
     }
 }
+
 @media screen and (min-width: 800px) {
-    #btn-menu{
+    #btn-menu {
         display: none !important;
     }
-    .m-filters{
+
+    .m-filters {
         display: flex !important;
 
     }
-  }
+}
