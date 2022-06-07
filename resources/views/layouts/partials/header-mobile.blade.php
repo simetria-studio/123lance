@@ -1,3 +1,4 @@
+<div class="fade-line"> </div>
 <div class="m-header">
     <div class="container">
         <div class="row block-m">
@@ -36,7 +37,7 @@
         </div>
     </div>
     <div class="menu-footer d-flex flex-column">
-        <div class="d-flex align-items-center">
+        <div class="d-flex align-items-center py-2">
             <div>
                 <img src="{{ asset('front/img/martelo-3.svg') }}" alt="">
             </div>
@@ -44,7 +45,7 @@
                 <p>Pague com PIX tenha 10% a mais em lances</p>
             </div>
         </div>
-        <div class="d-flex align-items-center">
+        <div class="d-flex align-items-center py-2">
             <div>
                 <img src="{{ asset('front/img/martelo-3.svg') }}" alt="">
             </div>
@@ -52,7 +53,7 @@
                 <p>Garantimos a entrega de seus arremates em todo Brasil</p>
             </div>
         </div>
-        <div class="d-flex align-items-center">
+        <div class="d-flex align-items-center py-2">
             <div>
                 <img src="{{ asset('front/img/martelo-3.svg') }}" alt="">
             </div>

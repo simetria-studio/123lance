@@ -56,10 +56,12 @@ $('#logos').slick({
 });
 
 $(document).on('click', '#btn-menu', function () {
-    $(".menu-mobile").animate({ "left": "0" }, 150);
+    $(".menu-mobile").animate({ "left": "0" }, 300);
     // $(".menu-mobile").animate({ opacity: 1 }, 150);
+    $(".fade-line").animate({ width: '100%' }, 0);
 });
 $(document).on('click', '.btn0close', function () {
-    $(".menu-mobile").animate({ "left": "-100%" }, 150);
+    $(".menu-mobile").animate({ "left": "-100%" }, 300);
     // $(".menu-mobile").animate({ opacity: 0 }, 0);
+    $(".fade-line").animate({ width: '0' }, 0);
 });
