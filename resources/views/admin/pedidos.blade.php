@@ -3,7 +3,7 @@
     <div class="container mt-5">
         <div class="filters-group">
             <div class="row">
-                <div class="col-md-8">
+                <div class="col-12 col-md-8">
                     <button class="btn btn-one mx-1">Todos</button>
                     <button class="btn btn-two mx-1">Completos</button>
                     <button class="btn btn-three mx-1">Pendentes</button>

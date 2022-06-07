@@ -29,4 +29,10 @@
     .home{
         padding: 0 1em !important;
     }
+
 }
+@media screen and (min-width: 800px) {
+    #btn-menu{
+        display: none !important;
+    }
+  }
