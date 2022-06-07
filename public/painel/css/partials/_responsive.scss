@@ -29,7 +29,12 @@
     .home{
         padding: 0 1em !important;
     }
-
+    .filters{
+        display: none !important;
+    }
+    .pedidos-grid{
+        grid-template-columns: 1fr 1fr !important;
+    }
 }
 @media screen and (min-width: 800px) {
     #btn-menu{
