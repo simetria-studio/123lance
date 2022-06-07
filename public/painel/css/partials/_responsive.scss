@@ -1,0 +1,32 @@
+@media screen and (max-width: 600px) {
+    .side-menu {
+        // display: none ;
+        width: 70% !important;
+        position: fixed;
+        top: 0;
+        left: -277px;
+        z-index: 1000;
+    }
+
+    .top {
+        width: 100%;
+        // margin: 0 2em !important;
+        justify-content: space-around !important;
+    }
+
+    .main-content {
+        margin: 0 !important;
+    }
+
+    .fade-line {
+        // width: ;
+        background-color: #000000a8;
+        height: 100vh;
+        position: fixed;
+        top: 0;
+        z-index: 100;
+    }
+    .home{
+        padding: 0 1em !important;
+    }
+}

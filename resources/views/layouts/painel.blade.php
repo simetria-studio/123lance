@@ -24,6 +24,38 @@
 
 <body>
     <div id="app">
+        <div class="fade-line"> </div>
+        <div class="top">
+            <div class="d-flex mt-5 menu">
+                <div class="mt-1">
+                    <img src="{{ asset('painel/img/ri_dashboard-3-fill.svg') }}" alt="">
+                </div>
+                <div class="mx-2">
+                    <p>Painel<br>
+                        <span>Estatísticas</span>
+                    </p>
+                </div>
+            </div>
+            <div class="d-flex mt-5 menu">
+                <div class="mt-1">
+                    <img src="{{ asset('painel/img/ri_logout-circle-r-fill.svg') }}" alt="">
+                </div>
+                <div class="mx-2">
+                    <p>Sair do<br>
+                        <span>Sistema</span>
+                    </p>
+                </div>
+            </div>
+            <div class="d-flex mt-5 menu " id="btn-menu">
+                <div class="mt-1">
+                    <img src="{{ asset('front/img/menu.svg') }}" alt="">
+                </div>
+                <div class="mx-2">
+
+
+                </div>
+            </div>
+        </div>
         <div class="side-menu">
             <div>
                 <img src="{{ asset('painel/img/logo.svg') }}" alt="">
@@ -133,6 +165,8 @@
             @yield('content')
         </main>
     </div>
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+    <script src="{{ asset('painel/js/script.js') }}"></script>
 </body>
 
 </html>
