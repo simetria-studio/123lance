@@ -39,7 +39,7 @@
             </div>
         </div>
     </div>
-    <div class="filters">
+    <div class="filters filter-product">
         <div class="container">
             <div class="filter-grid">
                 <div>

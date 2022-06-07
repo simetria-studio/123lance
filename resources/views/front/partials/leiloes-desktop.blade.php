@@ -1,5 +1,5 @@
-<div class="d-leiloes">
-    <div class="section-2">
+
+    <div class="section-2 d-leiloes">
         <div class="node-1">
             <h4><span class="mx-2"><img src="{{ asset('front/img/martelo-2.svg') }}" alt=""></span>Leilão
                 <span class="color-primary">em
@@ -31,7 +31,7 @@
             </div>
         </div>
     </div>
-    <div class="section-2">
+    <div class="section-2 d-leiloes">
         <div class="node-1">
             <h4><span class="mx-2"><img src="{{ asset('front/img/martelo.svg') }}" alt=""></span>Últimos
                 lances</span>
@@ -96,4 +96,4 @@
             </div>
         </div>
     </div>
-</div>
+

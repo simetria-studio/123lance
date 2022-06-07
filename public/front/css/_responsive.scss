@@ -242,10 +242,12 @@
         /* identical to box height, or 100% */
 
         letter-spacing: -0.04em;
-
+        border-bottom: solid 4px $color-primary !important;
         color: #000000;
     }
-
+.tab-content{
+    margin-top: 1em !important;
+}
     .d-leiloes {
         display: none;
     }
@@ -286,5 +288,9 @@
 
     .bottom-menu {
         display: none;
+    }
+    .filter-product{
+        margin-top: 4em !important;
+        margin-bottom: 2em !important;
     }
 }
