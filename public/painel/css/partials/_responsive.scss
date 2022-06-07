@@ -35,9 +35,21 @@
     .pedidos-grid{
         grid-template-columns: 1fr 1fr !important;
     }
+    .m-filters{
+        display: grid !important;
+        grid-template-columns: 1fr 1fr ;
+        gap: 20px;
+        button{
+            width: 100%;
+        }
+    }
 }
 @media screen and (min-width: 800px) {
     #btn-menu{
         display: none !important;
+    }
+    .m-filters{
+        display: flex !important;
+
     }
   }
