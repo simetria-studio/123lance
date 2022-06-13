@@ -1,0 +1,58 @@
+.uv-accordinaton {
+    width: 90%;
+    margin: 0 auto;
+    display: table;
+}
+.uv-accordinaton ul {
+    padding: 0;
+    margin: 20px 0;
+    color: #555;
+}
+.uv-accordinaton ul li {
+    list-style: none;
+    border-top: 1px solid #ddd;
+    display: block;
+    padding: 15px;
+    overflow: hidden;
+}
+.uv-accordinaton ul li:first-child {
+    border-color: transparent;
+}
+.uv-accordinaton-list {
+    display: block;
+    text-decoration: none;
+    cursor: pointer;
+}
+.uv-accordinaton-list:hover {
+    color: $color-primary;
+}
+.uv-accordinaton-list h2 {
+    font-size: 18px;
+    line-height: 30px;
+    margin-top: 0;
+    margin-bottom: 0;
+}
+.uv-accordinaton-list h2.hilighted {
+    color: $color-primary;
+}
+.uv-accordition-detail a {
+    text-decoration: none;
+    color: $color-primary;
+    border: 1px solid $color-primary;
+    padding: 6px 10px 5px;
+    font-size: 14px;
+}
+.uv-accordition-detail {
+    margin: 10px 0 10px 0px;
+    display: none;
+    line-height: 22px;
+}
+.uv-right-arrow {
+    margin-top: 0;
+    margin-left: 20px;
+    width: 10px;
+    height: 100%;
+    float: right;
+    font-weight: bold;
+    font-size: 20px;
+}

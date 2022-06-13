@@ -25,4 +25,8 @@ class HomeController extends Controller
     {
        return view('front.auction-bought');
     }
+    public function faq()
+    {
+       return view('front.faq');
+    }
 }

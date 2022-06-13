@@ -65,3 +65,15 @@ $(document).on('click', '.btn0close', function () {
     // $(".menu-mobile").animate({ opacity: 0 }, 0);
     $(".fade-line").animate({ width: '0' }, 0);
 });
+
+
+$(".uv-accordinaton-list").on( "click", function() {
+    $(".uv-accordinaton-list>:first-child").text("+");
+    $(".uv-accordinaton-list h2").removeClass("hilighted");
+    $(".uv-accordition-detail").slideUp();
+    if($(this).find(">:first-child").text() == "+") {
+     $(this).next().slideToggle(200);
+       $(this).find(">:first-child").text("-");
+      $(this).find("h2").addClass("hilighted");
+    }
+  });
