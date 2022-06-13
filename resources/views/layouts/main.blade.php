@@ -82,7 +82,7 @@
                 </div>
                 <div class="block-footer">
                     <h2>Como Funciona</h2>
-                    <a href=""><span><i class="fa-solid fa-arrow-right"></i></span>Passo a Passo</a>
+                    <a href="{{ route('como.funciona') }}"><span><i class="fa-solid fa-arrow-right"></i></span>Passo a Passo</a>
                     <a href="{{ route('faq') }}"><span><i class="fa-solid fa-arrow-right"></i></span>Perguntas Frequentes</a>
                     <a href=""><span><i class="fa-solid fa-arrow-right"></i></span>Dicas e Estratégias</a>
                     <a href=""><span><i class="fa-solid fa-arrow-right"></i></span>Minha Conta</a>

@@ -32,3 +32,4 @@ Route::get('/orders', [PainelController::class, 'pedidos'])->name('pedidos');
 Route::get('all-auctions', [HomeController::class, 'allProducts'])->name('todos.produtos');
 Route::get('auction-bought', [HomeController::class, 'auctionBought'])->name('leiloes.arrematados');
 Route::get('faq', [HomeController::class, 'faq'])->name('faq');
+Route::get('how-it-works', [HomeController::class, 'howItWorks'])->name('como.funciona');

@@ -29,4 +29,8 @@ class HomeController extends Controller
     {
        return view('front.faq');
     }
+    public function howItWorks()
+    {
+        return view('front.how-it-works');
+    }
 }
