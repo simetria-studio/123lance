@@ -1,9 +1,9 @@
 <?php
 
-use App\Http\Controllers\Admin\PainelController;
-use App\Http\Controllers\Front\HomeController;
-use App\Http\Controllers\Front\UserCadastroController;
 use Illuminate\Support\Facades\Route;
+use App\Http\Controllers\Front\HomeController;
+use App\Http\Controllers\Admin\PainelController;
+use App\Http\Controllers\Front\UserRegisterController;
 
 /*
 |--------------------------------------------------------------------------
@@ -23,7 +23,7 @@ Route::get('/home', [App\Http\Controllers\HomeController::class, 'index'])->name
 
 //front routes
 Route::get('/',[HomeController::class, 'index'])->name('index');
-Route::get('cadastro', [UserCadastroController::class, 'index'])->name('cadastro');
+Route::get('cadastro', [UserRegisterController::class, 'index'])->name('cadastro');
 
 
 Route::get('produto', [HomeController::class, 'lance'])->name('produto.lance');
