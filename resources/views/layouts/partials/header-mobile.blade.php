@@ -24,7 +24,7 @@
             <button class="btn btn-two">Compre Lance</button>
         </div>
         <div class="my-3">
-            <a href="">Leilões Online</a>
+            <a href="{{ route('todos.produtos') }}">Leilões Online</a>
             <div class="underline"></div>
         </div>
         <div class="my-3">
