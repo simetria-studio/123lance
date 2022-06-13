@@ -14,7 +14,7 @@ class HomeController extends Controller
 
     public function lance()
     {
-        return view('front.produto-lance');
+        return view('front.product-bid');
     }
     public function allProducts()
     {

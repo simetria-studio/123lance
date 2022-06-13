@@ -14,7 +14,7 @@ class UserCadastroController extends Controller
      */
     public function index()
     {
-        return view('front.cadastro');
+        return view('front.register');
     }
 
     /**
