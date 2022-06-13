@@ -24,7 +24,7 @@
     </div>
     <div class="products">
         <div class="container">
-            <div class="product-grid">
+            <div class="product-grid" id="products">
                 <div>
                     <div class="product-body">
                         <a href="{{ route('produto.lance') }}">

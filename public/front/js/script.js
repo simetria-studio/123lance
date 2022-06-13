@@ -1,4 +1,4 @@
-$('.product-grid').slick({
+$('#products').slick({
     dots: false,
     infinite: true,
     speed: 300,

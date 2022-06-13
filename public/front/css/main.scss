@@ -201,7 +201,9 @@ body {
     a {
         text-decoration: none;
     }
-
+    .grid-columns{
+        grid-template-columns: repeat(3, 1fr);
+    }
     .product-grid {
         display: grid;
         // grid-template-columns: repeat(3, 1fr);
@@ -511,4 +513,7 @@ footer {
 .img-test {
     position: relative;
     top: 29px;
+}
+.in-products{
+    margin-top: 3em  !important;
 }

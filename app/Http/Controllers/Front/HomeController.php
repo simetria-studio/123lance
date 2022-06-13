@@ -16,4 +16,8 @@ class HomeController extends Controller
     {
         return view('front.produto-lance');
     }
+    public function allProducts()
+    {
+        return view('front.all-products');
+    }
 }
