@@ -12,12 +12,17 @@ class HomeController extends Controller
         return view('front.index');
     }
 
-    public function lance()
+    public function bid()
     {
+
         return view('front.product-bid');
     }
     public function allProducts()
     {
         return view('front.all-products');
+    }
+    public function auctionBought()
+    {
+       return view('front.auction-bought');
     }
 }

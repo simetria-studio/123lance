@@ -28,7 +28,7 @@
             <div class="underline"></div>
         </div>
         <div class="my-3">
-            <a href="">Leilões Arrematados</a>
+            <a href="{{ route('leiloes.arrematados') }}">Leilões Arrematados</a>
             <div class="underline"></div>
         </div>
         <div class="my-3">

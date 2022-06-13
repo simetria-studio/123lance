@@ -5,9 +5,9 @@
             <div class="container">
                 <div class="filter-grid">
                     <div>
-                        <a href="">Leilões Online</a>
-                        <a href="" class="a">Próximos leilões</a>
-                        <a href="{{ route('leiloes.arrematados') }}" class="a">Leilões Arrematados</a>
+                        <a href="">Leilões Arrematados</a>
+                        {{-- <a href="" class="a">Próximos leilões</a>
+                        <a href="" class="a">Leilões Arrematados</a> --}}
                     </div>
                     <div class="d-flex justify-content-end">
                         <div class="all">

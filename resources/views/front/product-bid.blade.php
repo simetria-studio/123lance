@@ -45,7 +45,7 @@
                 <div>
                     <a href="">Leilões Online</a>
                     <a href="" class="a">Próximos leilões</a>
-                    <a href="" class="a">Leilões Arrematados</a>
+                    <a href="{{ route('leiloes.arrematados') }}" class="a">Leilões Arrematados</a>
                 </div>
                 <div class="d-flex justify-content-end">
                     <div class="all">
@@ -61,7 +61,7 @@
     </div>
     <div class="products">
         <div class="container">
-            <div class="product-grid">
+            <div class="product-grid" id="products">
                 <div class="product-body">
                     <div class="product-header">
                         <div>

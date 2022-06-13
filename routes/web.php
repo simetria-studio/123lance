@@ -23,10 +23,11 @@ Route::get('/home', [App\Http\Controllers\HomeController::class, 'index'])->name
 
 //front routes
 Route::get('/',[HomeController::class, 'index'])->name('index');
-Route::get('cadastro', [UserRegisterController::class, 'index'])->name('cadastro');
+Route::get('user-register', [UserRegisterController::class, 'index'])->name('cadastro');
 
 
-Route::get('produto', [HomeController::class, 'lance'])->name('produto.lance');
+Route::get('auction', [HomeController::class, 'bid'])->name('produto.lance');
 Route::get('/dashboard', [PainelController::class, 'index'])->name('dashboard');
-Route::get('/pedidos', [PainelController::class, 'pedidos'])->name('pedidos');
-Route::get('todos-produtos', [HomeController::class, 'allProducts'])->name('todos.produtos');
+Route::get('/orders', [PainelController::class, 'pedidos'])->name('pedidos');
+Route::get('all-auctions', [HomeController::class, 'allProducts'])->name('todos.produtos');
+Route::get('auction-bought', [HomeController::class, 'auctionBought'])->name('leiloes.arrematados');

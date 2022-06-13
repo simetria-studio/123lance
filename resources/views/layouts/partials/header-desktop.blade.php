@@ -17,7 +17,7 @@
                     <img src="{{ asset('front/img/martelo.svg') }}" alt="">
                 </div>
                 <div>
-                    <h4>Leilões <span>Arrematados</span> </h4>
+                   <a href="{{ route('leiloes.arrematados') }}"> <h4>Leilões <span>Arrematados</span> </h4></a>
                 </div>
             </div>
             <div>
