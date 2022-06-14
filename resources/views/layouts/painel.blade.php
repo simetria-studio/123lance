@@ -90,7 +90,7 @@
                     </a>
                 </div>
                 <div class="my-3">
-                    <a href="">
+                    <a href="{{ route('produtos') }}">
                         <div class="d-flex">
                             <div class="mt-1">
                                 <img src="{{ asset('painel/img/basket.svg') }}" alt="">

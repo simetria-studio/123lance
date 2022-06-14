@@ -270,19 +270,79 @@ body {
         /* identical to box height */
         color: #000000;
     }
-    .fa-calendar-days{
 
-        color:#F27900;
+    .fa-calendar-days {
+
+        color: #F27900;
     }
 
 }
-.btn-salvar{
+
+.btn-salvar {
     background: transparent !important;
     color: blue !important;
     font-weight: 800;
 }
-.btn-cancel{
+
+.btn-cancel {
     background: transparent !important;
     color: red !important;
     font-weight: 800;
+}
+
+.search {
+    input {
+        border-right: none !important;
+    }
+
+    button {
+
+        border: 1px solid #ced4da !important;
+        border-left: none !important;
+        background: #f8fafc !important;
+    }
+}
+
+.filters-products {
+
+    select {
+        background: none !important;
+        border: none !important;
+
+        option {
+            background: none !important;
+        }
+    }
+}
+
+.produto-grid {
+    width: 100%;
+    // height: 76px;
+    padding: 1em;
+    background: #FFFFFF;
+    border-radius: 10.8583px;
+    align-items: center;
+    margin: 1em 0;
+
+    p {
+        font-weight: 400;
+        font-size: 0.9em;
+        line-height: 18px;
+        color: #000000;
+    }
+
+    span {
+        padding-right: 0.2em;
+
+        .fa-calendar-days {
+            color: #F27900;
+        }
+    }
+
+    a {
+        color: #B3B3BF;
+        text-decoration: none;
+        font-size: 2em;
+    }
+    
 }

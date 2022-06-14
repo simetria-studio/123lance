@@ -12,9 +12,13 @@ class PainelController extends Controller
        return view('admin.index');
     }
 
-    public function pedidos()
+    public function orders()
     {
-       return view('admin.pedidos');
+       return view('admin.orders');
+    }
+    public function products()
+    {
+        return view('admin.products');
     }
 
 }
