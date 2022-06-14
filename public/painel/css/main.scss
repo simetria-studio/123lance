@@ -233,5 +233,56 @@ body {
         text-decoration: none;
         font-size: 2em;
     }
+
+    .dropdown-item {
+        font-size: 0.9em !important;
+    }
 }
 
+.btn-alt-1 {
+    background: #0800FF !important;
+    color: #fff;
+}
+
+.btn-alt-2 {
+    background: #D11A2A !important;
+    color: #fff;
+}
+
+.btn-alt-3 {
+    background: #F27900;
+    color: #fff;
+}
+
+.modal-edit {
+    p {
+        font-weight: 400;
+        font-size: 15px;
+        line-height: 18px;
+        color: #030229;
+        opacity: 0.7;
+    }
+
+    h5 {
+        font-weight: 400;
+        font-size: 15px;
+        line-height: 18px;
+        /* identical to box height */
+        color: #000000;
+    }
+    .fa-calendar-days{
+
+        color:#F27900;
+    }
+
+}
+.btn-salvar{
+    background: transparent !important;
+    color: blue !important;
+    font-weight: 800;
+}
+.btn-cancel{
+    background: transparent !important;
+    color: red !important;
+    font-weight: 800;
+}
