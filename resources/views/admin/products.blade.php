@@ -74,7 +74,7 @@
                 <div class="dropdown col-md-2 col-6">
                     <a id="dropdownMenuButton1" data-bs-toggle="dropdown" aria-expanded="false">...</a>
                     <ul class="dropdown-menu" aria-labelledby="dropdownMenuLink">
-                        <li><a class="dropdown-item" data-bs-toggle="modal" data-bs-target="#editPedido"><button
+                        <li><a class="dropdown-item" data-bs-toggle="modal" data-bs-target="#createProduto"><button
                                     class="btn btn-alt-1"><i class="fa-solid fa-pen-to-square"></i> Editar</button></a>
                         </li>
                         <li><a class="dropdown-item" href="#"><button class="btn btn-alt-2"><i
@@ -90,4 +90,5 @@
 
     <!-- Modal -->
     @include('admin.partials.modais.modal-create-produto')
+    @include('admin.partials.modais.modal-edit-produto')
 @endsection
