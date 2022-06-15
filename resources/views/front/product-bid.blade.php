@@ -152,7 +152,7 @@
                         <p>Faça seu cadastro e<br> ganhe 5 lances bônus<br> para começar</p>
                         <button class="btn btn-two">Cadastre-se</button>
                     </div>
-                    <div>
+                    <div class="img-test">
                         <img src="{{ asset('front/img/mulher.png') }}" alt="">
                     </div>
                 </div>

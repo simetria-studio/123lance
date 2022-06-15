@@ -491,6 +491,11 @@
         }
 
     }
+    .produto-lance{
+        .lance-grid{
+            grid-template-columns: 1fr 1fr !important;
+        }
+    }
     footer{
         .block-footer {
             a{
