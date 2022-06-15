@@ -91,10 +91,10 @@
                 <div class="block-footer">
                     <h2>Termos de uso</h2>
                     <a href="{{ route('politicas.privacidade') }}"><span><i class="fa-solid fa-arrow-right"></i></span>Política de privacidade</a>
-                    <a href=""><span><i class="fa-solid fa-arrow-right"></i></span>Políticas de cookies</a>
-                    <a href=""><span><i class="fa-solid fa-arrow-right"></i></span>Termos e condições</a>
-                    <a href=""><span><i class="fa-solid fa-arrow-right"></i></span>Politica de entrega </a>
-                    <a href=""><span><i class="fa-solid fa-arrow-right"></i></span>Política de reembolso</a>
+                    <a href="{{ route('politicas.cookies') }}"><span><i class="fa-solid fa-arrow-right"></i></span>Políticas de cookies</a>
+                    <a href="{{ route('termos') }}"><span><i class="fa-solid fa-arrow-right"></i></span>Termos e condições</a>
+                    <a href="{{ route('politicas.entrega') }}"><span><i class="fa-solid fa-arrow-right"></i></span>Politica de entrega </a>
+                    <a href="{{ route('politicas.reembolso') }}"><span><i class="fa-solid fa-arrow-right"></i></span>Política de reembolso</a>
                 </div>
                 <div class="block-footer">
                     <h2>Suporte</h2>

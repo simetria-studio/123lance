@@ -40,3 +40,7 @@ Route::get('auction-bought', [HomeController::class, 'auctionBought'])->name('le
 Route::get('faq', [HomeController::class, 'faq'])->name('faq');
 Route::get('how-it-works', [HomeController::class, 'howItWorks'])->name('como.funciona');
 Route::get('privacy-policies', [HomeController::class, 'privacy'])->name('politicas.privacidade');
+Route::get('privacy-cookies', [HomeController::class, 'cookies'])->name('politicas.cookies');
+Route::get('terms-and-conditions', [HomeController::class, 'termsAndConditions'])->name('termos');
+Route::get('delivery-policies', [HomeController::class, 'delivery'])->name('politicas.entrega');
+Route::get('refound-policies', [HomeController::class, 'refound'])->name('politicas.reembolso');

@@ -37,4 +37,20 @@ class HomeController extends Controller
     {
         return view('front.privacy');
     }
+    public function cookies()
+    {
+       return view('front.cookies');
+    }
+    public function termsAndConditions()
+    {
+        return view('front.terms-and-conditions');
+    }
+    public function delivery()
+    {
+       return view('front.delivery-policies');
+    }
+    public function refound()
+    {
+        return view('front.refound-policies');
+    }
 }
