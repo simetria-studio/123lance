@@ -349,7 +349,7 @@
     }
 
     .header-grid {
-        grid-template-columns: repeat(auto-fit, 20% 20% 20% 6% 100%) !important;
+        grid-template-columns: repeat(auto-fit, 20% 20% 20% 6% 20%) !important;
 
         h4 {
             text-align: unset !important;
@@ -461,6 +461,37 @@
         }
     }
 
+    .fillet{
+        padding: 0 !important;
+        .fillet-grid{
+            padding: 1em 0 !important;
+            align-items: center !important;
+            .block-fillet{
+                img{
+                    width: 70% !important;
+                }
+                p{
+                    margin: 0 !important;
+                    font-size: 0.8em !important;
+                }
+            }
+        }
+    }
+    .providers{
+        h4{
+            font-size: 1.1em !important;
+            line-height: unset !important;
+        }
+        .grid-logo{
+            gap: 10px !important;
+            img{
+                width: 80% !important;
+            }
+        }
+        .providers-grid{
+
+        }
+    }
     .m-header {
         display: none !important;
     }
