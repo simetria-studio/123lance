@@ -90,7 +90,7 @@
                 </div>
                 <div class="block-footer">
                     <h2>Termos de uso</h2>
-                    <a href=""><span><i class="fa-solid fa-arrow-right"></i></span>Política de privacidade</a>
+                    <a href="{{ route('politicas.privacidade') }}"><span><i class="fa-solid fa-arrow-right"></i></span>Política de privacidade</a>
                     <a href=""><span><i class="fa-solid fa-arrow-right"></i></span>Políticas de cookies</a>
                     <a href=""><span><i class="fa-solid fa-arrow-right"></i></span>Termos e condições</a>
                     <a href=""><span><i class="fa-solid fa-arrow-right"></i></span>Politica de entrega </a>

@@ -382,6 +382,8 @@
 
             .text-hero {
                 grid-column: 3/3 !important;
+                position: relative !important;
+                right: 71px !important;
             }
 
             h1 {
@@ -420,41 +422,48 @@
 
     .filters {
         margin-top: 5em !important;
+
         .filter-grid {
             a {
                 font-size: 0.8em !important;
             }
         }
     }
-    .products{
+
+    .products {
         .product-grid {
-            .product-desc{
+            .product-desc {
                 padding: 0 1em !important;
-                p{
+
+                p {
                     font-size: 1em !important;
                 }
             }
         }
     }
-    .testimonials{
-        .grid-testimonials{
-            .left{
-                .text-testimonials{
+
+    .testimonials {
+        .grid-testimonials {
+            .left {
+                .text-testimonials {
                     padding: 0 !important;
                 }
-                .img-test{
-                    img{
+
+                .img-test {
+                    img {
                         width: 70% !important;
                     }
                 }
             }
 
-            .video{
+            .video {
                 width: 100% !important;
                 height: 250px !important;
-                .play{
+
+                .play {
                     width: 70px !important;
-                    img{
+
+                    img {
                         width: 100%;
                     }
                 }
@@ -462,47 +471,56 @@
         }
     }
 
-    .fillet{
+    .fillet {
         padding: 0 !important;
-        .fillet-grid{
+
+        .fillet-grid {
             padding: 1em 0 !important;
             align-items: center !important;
-            .block-fillet{
-                img{
+
+            .block-fillet {
+                img {
                     width: 70% !important;
                 }
-                p{
+
+                p {
                     margin: 0 !important;
                     font-size: 0.8em !important;
                 }
             }
         }
     }
-    .providers{
-        h4{
+
+    .providers {
+        h4 {
             font-size: 1.1em !important;
             line-height: unset !important;
         }
-        .grid-logo{
+
+        .grid-logo {
             gap: 10px !important;
-            img{
+
+            img {
                 width: 80% !important;
             }
         }
 
     }
-    .produto-lance{
-        .lance-grid{
+
+    .produto-lance {
+        .lance-grid {
             grid-template-columns: 1fr 1fr !important;
         }
     }
-    footer{
+
+    footer {
         .block-footer {
-            a{
+            a {
                 font-size: 0.9em !important;
             }
         }
     }
+
     .m-header {
         display: none !important;
     }

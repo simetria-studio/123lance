@@ -33,4 +33,8 @@ class HomeController extends Controller
     {
         return view('front.how-it-works');
     }
+    public function privacy()
+    {
+        return view('front.privacy');
+    }
 }
