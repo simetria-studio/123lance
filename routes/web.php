@@ -44,3 +44,4 @@ Route::get('privacy-cookies', [HomeController::class, 'cookies'])->name('politic
 Route::get('terms-and-conditions', [HomeController::class, 'termsAndConditions'])->name('termos');
 Route::get('delivery-policies', [HomeController::class, 'delivery'])->name('politicas.entrega');
 Route::get('refound-policies', [HomeController::class, 'refound'])->name('politicas.reembolso');
+Route::get('testimonials', [HomeController::class, 'testimonials'])->name('depoimentos');

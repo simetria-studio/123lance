@@ -53,4 +53,8 @@ class HomeController extends Controller
     {
         return view('front.refound-policies');
     }
+    public function testimonials()
+    {
+       return view('front.testimonial');
+    }
 }

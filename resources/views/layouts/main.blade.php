@@ -75,7 +75,7 @@
                 <div class="block-footer">
                     <h2>Institucional</h2>
                     <a href=""><span><i class="fa-solid fa-arrow-right"></i></span>Quem Somos</a>
-                    <a href=""><span><i class="fa-solid fa-arrow-right"></i></span>Depoimentos</a>
+                    <a href="{{ route('depoimentos') }}"><span><i class="fa-solid fa-arrow-right"></i></span>Depoimentos</a>
                     <a href=""><span><i class="fa-solid fa-arrow-right"></i></span>Blog</a>
                     <a href=""><span><i class="fa-solid fa-arrow-right"></i></span>Contato</a>
                     <a href=""><span><i class="fa-solid fa-arrow-right"></i></span>Termos de Uso</a>
