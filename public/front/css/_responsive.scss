@@ -284,16 +284,18 @@
         top: 0;
         z-index: 100;
     }
-    .form-login{
-        img{
+
+    .form-login {
+        img {
             width: 100%;
         }
     }
 
-    .grid-columns{
+    .grid-columns {
         grid-template-columns: 1fr !important;
     }
-    .all-products{
+
+    .all-products {
         padding-bottom: 5em !important;
     }
 
@@ -330,5 +332,156 @@
     .filter-product {
         margin-top: 4em !important;
         margin-bottom: 2em !important;
+    }
+}
+
+
+
+@media screen and (max-width: 1024px) and (min-width: 600px) {
+    .btn-one {
+        width: 100% !important;
+        height: auto !important;
+    }
+
+    .btn-two {
+        width: 100% !important;
+        height: auto !important;
+    }
+
+    .header-grid {
+        grid-template-columns: repeat(auto-fit, 20% 20% 20% 6% 100%) !important;
+
+        h4 {
+            text-align: unset !important;
+        }
+
+        .leiloes-ar {
+            align-items: center !important;
+        }
+    }
+
+    .d-provider {
+        .grid-logo {
+            img {
+                width: 80px;
+            }
+
+            gap: 10px;
+        }
+    }
+
+    .hero {
+        background-size: cover !important;
+        background-repeat: no-repeat !important;
+        height: auto !important;
+
+        .hero-grid {
+            height: auto !important;
+            grid-template-columns: repeat(auto-fill, 1fr 1fr 1fr) !important;
+
+            .text-hero {
+                grid-column: 3/3 !important;
+            }
+
+            h1 {
+                font-style: normal;
+                font-weight: 700;
+                font-size: 1em !important;
+                line-height: unset !important;
+                letter-spacing: -0.04em;
+                color: #FFF9F9;
+            }
+
+            .btn-one {
+                width: unset !important;
+            }
+        }
+
+        .strip {
+            padding: 1em 0 !important;
+            bottom: 0 !important;
+            top: 3em !important;
+
+            .strip-block {
+                padding: 0 !important;
+
+                img {
+                    width: 80% !important;
+                }
+
+                h5 {
+                    font-size: 0.7em !important;
+                    line-height: unset !important;
+                }
+            }
+        }
+    }
+
+    .filters {
+        margin-top: 5em !important;
+        .filter-grid {
+            a {
+                font-size: 0.8em !important;
+            }
+        }
+    }
+    .products{
+        .product-grid {
+            .product-desc{
+                padding: 0 1em !important;
+                p{
+                    font-size: 1em !important;
+                }
+            }
+        }
+    }
+    .testimonials{
+        .grid-testimonials{
+            .left{
+                .text-testimonials{
+                    padding: 0 !important;
+                }
+                .img-test{
+                    img{
+                        width: 70% !important;
+                    }
+                }
+            }
+
+            .video{
+                width: 100% !important;
+                height: 250px !important;
+                .play{
+                    width: 70px !important;
+                    img{
+                        width: 100%;
+                    }
+                }
+            }
+        }
+    }
+
+    .m-header {
+        display: none !important;
+    }
+
+    .m-leiloes {
+        display: none !important;
+    }
+
+    .menu-mobile {
+        display: none !important;
+    }
+
+    .m-hero {
+        display: none !important;
+    }
+
+    .m-provider {
+        display: none !important;
+    }
+
+    .bottom-menu {
+        display: none !important;
     }
 }

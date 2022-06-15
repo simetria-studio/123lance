@@ -74,7 +74,7 @@ body {
 
 .header-grid {
     display: grid;
-    grid-template-columns: 28% 17% 20% 6% 20%;
+    grid-template-columns:repeat(auto-fit, 28% 17% 20% 6% 20%) ;
     align-items: baseline;
     margin: 1em 0;
 

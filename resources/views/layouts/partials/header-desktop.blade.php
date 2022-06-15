@@ -12,7 +12,7 @@
                    <a href="{{ route('todos.produtos') }}"> <h4>Leilões <span>Online</span></h4></a>
                 </div>
             </div>
-            <div class="d-flex">
+            <div class="d-flex leiloes-ar">
                 <div>
                     <img src="{{ asset('front/img/martelo.svg') }}" alt="">
                 </div>
