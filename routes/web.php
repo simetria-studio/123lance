@@ -45,3 +45,4 @@ Route::get('terms-and-conditions', [HomeController::class, 'termsAndConditions']
 Route::get('delivery-policies', [HomeController::class, 'delivery'])->name('politicas.entrega');
 Route::get('refound-policies', [HomeController::class, 'refound'])->name('politicas.reembolso');
 Route::get('testimonials', [HomeController::class, 'testimonials'])->name('depoimentos');
+Route::get('buy-bid', [HomeController::class, 'buyBid'])->name('compra.lance');

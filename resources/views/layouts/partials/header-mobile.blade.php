@@ -21,7 +21,7 @@
             <button class="btn btn-one" data-bs-toggle="modal" data-bs-target="#modalLogin">Faça Login</button>
         </div>
         <div class="my-2">
-            <button class="btn btn-two">Compre Lance</button>
+           <a href="{{ route('compra.lance') }}"> <button class="btn btn-two">Compre Lance</button></a>
         </div>
         <div class="my-3">
             <a href="{{ route('todos.produtos') }}">Leilões Online</a>

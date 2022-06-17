@@ -543,3 +543,33 @@ footer {
         color: #000000;
     }
 }
+.grid-price{
+    display: grid;
+    grid-template-columns: repeat(5, 1fr);
+    gap: 20px;
+}
+.buy-bid {
+    background: #FFFFFF;
+    border-radius: 10.8583px;
+    padding: 0.7em;
+    width: 100%;
+    display: grid;
+    place-items: center;
+    // margin: 1em;
+    p {
+        font-weight: 400;
+        font-size: 1em;
+        line-height: 17px;
+        color: #000000;
+    }
+
+    h2 {
+        font-weight: 900;
+        font-size: 1.7em;
+        line-height: 37px;
+        /* identical to box height */
+
+        color: #000000;
+
+    }
+}

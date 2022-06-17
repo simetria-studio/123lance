@@ -29,7 +29,7 @@
                         Login</button>
                 </div>
                 <div class="mx-1">
-                    <button class="btn btn-two">Compre Lance</button>
+                   <a href="{{ route('compra.lance') }}"> <button class="btn btn-two">Compre Lance</button></a>
                 </div>
             </div>
 

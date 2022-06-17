@@ -57,4 +57,8 @@ class HomeController extends Controller
     {
        return view('front.testimonial');
     }
+    public function buyBid()
+    {
+        return view('front.buy-bid');
+    }
 }
