@@ -46,8 +46,7 @@
                             </div>
                             <div class="product-footer">
                                 <div>
-                                    <a href="{{ route('produto.lance') }}"> <button class="btn btn-two">Faça seu
-                                            lance</button></a>
+                                    <a href="{{ route('produto.lance') }}"> <button class="btn btn-two">Arrematados</button></a>
                                 </div>
                                 <div>
                                     <h4><span>1</span><span>5</span></h4>
@@ -77,8 +76,7 @@
                             </div>
                             <div class="product-footer">
                                 <div>
-                                    <a href="{{ route('produto.lance') }}"> <button class="btn btn-two">Faça seu
-                                            lance</button></a>
+                                    <a href="{{ route('produto.lance') }}"> <button class="btn btn-two">Arrematados</button></a>
                                 </div>
                                 <div>
                                     <h4><span>1</span><span>5</span></h4>
@@ -108,8 +106,7 @@
                             </div>
                             <div class="product-footer">
                                 <div>
-                                    <a href="{{ route('produto.lance') }}"> <button class="btn btn-two">Faça seu
-                                            lance</button></a>
+                                    <a href="{{ route('produto.lance') }}"> <button class="btn btn-two">Arrematados</button></a>
                                 </div>
                                 <div>
                                     <h4><span>1</span><span>5</span></h4>
@@ -139,8 +136,7 @@
                             </div>
                             <div class="product-footer">
                                 <div>
-                                    <a href="{{ route('produto.lance') }}"> <button class="btn btn-two">Faça seu
-                                            lance</button></a>
+                                    <a href="{{ route('produto.lance') }}"> <button class="btn btn-two">Arrematados</button></a>
                                 </div>
                                 <div>
                                     <h4><span>1</span><span>5</span></h4>
@@ -152,7 +148,7 @@
             </div>
         </div>
     </div>
-    <div class="testimonials">
+    <div class="testimonials index-test">
         <div class="container">
             <div class="grid-testimonials">
                 <div class="left">

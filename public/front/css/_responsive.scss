@@ -56,10 +56,9 @@
         display: none;
     }
 
-    .testimonials {
-        display: none;
+    .index-test{
+        display: none !important;
     }
-
     .fillet {
         display: none;
     }
@@ -77,7 +76,13 @@
         display: unset !important;
     }
 
-
+    .grid-testimonials{
+        grid-template-columns: 1fr !important;
+        gap: 20px;
+    }
+    .img-test{
+        display: none !important;
+    }
     .menu-mobile {
         position: fixed;
         max-width: 70%;

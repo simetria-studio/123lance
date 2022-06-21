@@ -39,7 +39,7 @@
                 </div>
                 <div>
                     <div class="row">
-                        <h2>Agora só falta seu<br> <span> endereço :)</span></h2>
+                        <h2 class="ps-3">Agora só falta seu<br> <span> endereço :)</span></h2>
                         <div class="mb-3 col-md-6">
                             <input type="email" class="form-control" id="" placeholder="Cep">
                         </div>
