@@ -22,7 +22,7 @@ Auth::routes();
 Route::get('/home', [App\Http\Controllers\HomeController::class, 'index'])->name('home');
 
 //front routes
-Route::get('/',[HomeController::class, 'index'])->name('index');
+Route::get('/', [HomeController::class, 'index'])->name('index');
 Route::get('user-register', [UserRegisterController::class, 'index'])->name('cadastro');
 
 
@@ -46,3 +46,8 @@ Route::get('delivery-policies', [HomeController::class, 'delivery'])->name('poli
 Route::get('refound-policies', [HomeController::class, 'refound'])->name('politicas.reembolso');
 Route::get('testimonials', [HomeController::class, 'testimonials'])->name('depoimentos');
 Route::get('buy-bid', [HomeController::class, 'buyBid'])->name('compra.lance');
+
+
+Route::get('admin-login', function () {
+    return view('admin.login');
+});
